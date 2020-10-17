@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.alert {
+  position: absolute !important;
+  bottom: 20px;
+  right: 20px;
+  margin-bottom: 0px !important;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+.cursorP {
+  cursor: pointer;
+}
+
+.scrollableTabel {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+#listTable li:hover {
+  transition: all 0.3s ease;
+  background-color: #b8daff;
+}
